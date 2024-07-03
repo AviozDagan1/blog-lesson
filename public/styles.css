@@ -1,14 +1,20 @@
 body {
     font-family: Arial, sans-serif;
 }
-
+/* Target the container element */
+.container {
+    padding-top: calc(100vh - /* height of your header */);  /* Adjust based on header height */
+  }
+/* Target the header element */
 header {
-    background-color: #84647d;
-}
-
-header img {
-    border: 0px solid white;
-}
+    /* Set background image using the path to your image */
+    background-image: url("images/20240412_fishing.jpg");
+  
+    /* Adjust background properties as needed */
+    background-repeat: no-repeat;  /* Prevent image tiling */
+    background-position: center;  /* Center image horizontally */
+    background-size: cover;       /* Scale image to fill the header */
+  }
 
 header h1 {
     font-size: 2.5rem;
